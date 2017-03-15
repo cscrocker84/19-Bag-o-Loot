@@ -1,0 +1,27 @@
+{
+  "name": "node-calculator-testing-CharlieCrocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "bagOloot": "bin/bagOloot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cscrocker84/19-Bag-o-Loot"
+  },
+  "keywords": [],
+  "author": "Charlie Crocker",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha -R list --watch"
+  }
+}
